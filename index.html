@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blackjack ♠</title>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <header>
+      <nav id="header-nav" class="navbar navbar-default">
+        <div class="container">
+          <div id="logo-img"alt="Blackjack"></div>
+        </div>
+      </nav>
+    </header>
+
+    <div id="main-content" class="container-1">
+      <h2>
+        <span id="blackjack-result">Let's play!</span>
+      </h2>
+
+      <div class="flex-blackjack-row1">
+        <div id="your-box">
+          <h2 id="player">You: <span id="your-blackjack-result">0</span></h2>
+        </div>
+        <div id="dealer-box">
+          <h2 id="player">Dealer: <span id="dealer-blackjack-result">0</span></h2>
+        </div>
+      </div>
+
+      <div class="flex-blackjack-row2">
+        <div>
+          <button class="btn btn-lg mr-2 btn-primary" id="blackjack-hit-button">Hit</button>
+          <button class="btn btn-lg mr-2 btn-warning" id="blackjack-stand-button">Stand</button>
+          <button class="btn btn-lg mr-2 btn-danger" id="blackjack-deal-button">Deal</button>
+        </div>
+      </div>
+
+      <div class="flex-blackjack-row3">
+        <table>
+          <tr>
+            <th>Wins</th>
+            <th>Losses</th>
+            <th>Draws</th>
+          </tr>
+          <tr>
+            <td><span id="wins">0</span></td>
+            <td><span id="losses">0</span></td>
+            <td><span id="draws">0</span></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <br>
+    <hr style="border: 1px solid black;">
+    <br>
+    <div id="howtoplay">
+      <h2 class="ca">How to play</h2>
+      <p>Blackjack is an enormously popular card game, with millions of fans playing it online across the globe. One of the main reasons for its popularity is that it’s so simple to play.</p>
+      
+      <ul class="steps">
+        <li>Your aim is to get a score of 21 or a higher value than the dealer.</li>
+        <li>If your score exceeds 21 then you lose. This is called ‘bust.’</li>
+        <li>If your score ties with the dealer then it's a draw. This is called a ‘push.’</li>
+        <li>Generally, bets are placed before you’re dealt your cards.<span class="spcolor"> But no bets here (yep...no chips).</span></li>
+        <li>Ace is worth 1 or 11 (pending on which value most benefits you).</li>
+        <li>Ten, jack, queen, and king are worth 10.</li>
+        <li>Two - nine have their face values.</li>
+        <li>You hit if you wish to be dealt more cards.</li>
+        <li>You stand if you are happy with your cards.</li>
+        <li>(Tip) If your cards total no more than 8 then you should always ‘hit.’</li>
+      </ul>
+
+      <p>There’s no guaranteed strategy for winning at blackjack. This is because it’s a game that combines both skill and luck, meaning that sometimes you simply have a bad run of cards.</p>
+    </div>
+
+    <footer class="panel-footer">
+      <div class="container">
+        <div id="last-logo" alt="Blackjack"></div>
+        <div class="row">
+          <section class="col-sm-12">
+            <div class="text-center">&copy; 2021 Blackjack Made with 🖤 by&nbsp;Divyam&nbsp;Kakkar</div>
+          </section>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+
+</html>
