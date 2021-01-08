@@ -205,6 +205,10 @@ hr {
 	}
 }
 
+/********** Ultra small devices only **********/
 
-
-
+@media (max-width: 280px) {
+	#blackjack-hit-button, #blackjack-stand-button, #blackjack-deal-button {
+		font-size: 11px;
+	}
+}

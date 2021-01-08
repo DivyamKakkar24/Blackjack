@@ -184,25 +184,11 @@ function showResult(winner) {
 	}
 }
 
-// function screen_resize() {
-// 	var w = parseInt(window.innerWidth);
-
-// 	if (w <= 768) {
-// 		alert('Rotate your device for better view.');
-// 	}
-// }
-
-// $(window).resize(function(e) {
-// 	screen_resize();
-// });
-
-// $(document).ready(function(e) {
-// 	screen_resize();
-// });
-
+let alertOnce = false;
 let limitFunc = function() {
-	if (window.innerWidth <= 768) {
-		alert('hey!');
+	if (window.innerWidth <= 420 && alertOnce === false) {
+		alert('Rotate Device.');
+		alertOnce = true;
 	}
 };
 
