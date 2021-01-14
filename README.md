@@ -12,3 +12,6 @@ Blackjack is an enormously popular card game, with millions of fans playing it o
 -> You stand if you are happy with your cards.
 -> (Tip) If your cards total no more than 8 then you should always ‘hit.’
 -> There’s no guaranteed strategy for winning at blackjack. This is because it’s a game that combines both skill and luck, meaning that sometimes you simply have a bad run of cards.
+
+
+![Blackjack game](https://i.ytimg.com/vi/DCMA4olYm1c/maxresdefault.jpg)
