@@ -53,8 +53,9 @@ body {
 }
 
 .flex-blackjack-row1, .flex-blackjack-row2 {
-	background: url('https://sironatherapeutichorsemanship.files.wordpress.com/2017/09/plain-green-background-wallpaper-3.jpg?w=900') center;
+	/*background: url('https://sironatherapeutichorsemanship.files.wordpress.com/2017/09/plain-green-background-wallpaper-3.jpg?w=900') center;*/
 	color: white;
+	background: green;
 }
 
 .flex-blackjack-row1 div {

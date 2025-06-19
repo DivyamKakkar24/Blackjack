@@ -1,5 +1,11 @@
 # Blackjack
 
+## How to start the Web application?
+
+- This is a simple web project. To run it, simply open the index.html file.
+
+## About
+
 Blackjack is a popular card game. The player has to compete against a bot.
 
 * Your aim is to get a score of 21 or a higher value than the dealer.
