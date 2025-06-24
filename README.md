@@ -1,8 +1,7 @@
 # Blackjack
 
 ## How to start the Web application?
-
-- This is a simple web project. To run it, simply open the index.html file.
+This is a simple web project. To run it, simply open the index.html file.
 
 ## About
 
